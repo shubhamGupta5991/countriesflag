@@ -9,8 +9,8 @@ import React, { useEffect, useState } from 'react'
         console.log(response.data)
         setData(response.data)
         
-    } catch (error) {
-        console.log(error)
+    } catch (e) {
+        console.log(e)
     }
         
    }
